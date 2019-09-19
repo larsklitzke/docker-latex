@@ -1,5 +1,10 @@
 # Dockered LaTeX
-Docker LaTeX version based on Ubuntu with Biber
+
+Dockered LaTeX version based on Ubuntu with Biber preinstalled.
+
+```
+docker pull larsklitzke/latex
+```
 
 The following packages are installed
 
