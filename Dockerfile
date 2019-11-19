@@ -1,4 +1,4 @@
-From ubuntu:18.04
+FROM ubuntu:18.04
 MAINTAINER Lars Klitzke <Lars.Klitzke@gmail.com>
 
 ENV DEBIAN_FRONTEND=noninteractive 
@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -qy\
         texlive-latex-recommended \
         texlive-latex-extra \
         texlive-bibtex-extra \
-        texlive-fonts-extra \   
+        texlive-fonts-extra \
+        texlive-lang-german \
         biber
         
 

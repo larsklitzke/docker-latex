@@ -13,4 +13,5 @@ The following packages are installed
 * texlive-latex-extra
 * texlive-bibtex-extra
 * texlive-fonts-extra
+* texlive-lang-german
 * biber
