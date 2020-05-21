@@ -1,0 +1,13 @@
+dist: trusty
+
+jobs:
+  include:
+    - stage: build docker image
+      script:
+      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+      - docker build -t latex .
+      - docker images
+    - stage: deploy image
+      script:
+        - docker tag latex $DOCKER_USERNAME/latex
+        - docker push $DOCKER_USERNAME/latex
