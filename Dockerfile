@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -qy\
         texlive-bibtex-extra \
         texlive-fonts-extra \
         texlive-lang-german \
-        texlive-scientific \
+        texlive-science \
         biber
         
 
