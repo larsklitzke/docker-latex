@@ -15,5 +15,4 @@ The following packages are installed
 * texlive-fonts-extra
 * texlive-lang-german
 * texlive-scientific
-* texlive-math-extra
 * biber
