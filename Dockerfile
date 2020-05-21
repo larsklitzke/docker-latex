@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -qy\
         texlive-fonts-extra \
         texlive-lang-german \
         texlive-scientific \
+        texlive-math-extra \
         biber
         
 
