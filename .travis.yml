@@ -8,4 +8,4 @@ jobs:
       - docker build -t latex .
       - docker images
       - docker tag latex $DOCKER_USERNAME/latex
-      - docker push $DOCKER_USERNAME/latex
+      - travis_wait docker push $DOCKER_USERNAME/latex
